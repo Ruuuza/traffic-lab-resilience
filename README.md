@@ -13,6 +13,7 @@ O projeto não envia tráfego real. Ele executa um modelo determinístico no nav
 - filas limitadas, retries e amplificação de carga;
 - autoscaling orientado por capacidade e saturação;
 - propagação do fluxo por Edge → Rate Limit → Load Balancer → Queue → Workers.
+- interface integralmente bilíngue em pt-BR e en-US, com preferência persistida no navegador.
 
 ## Modelo
 

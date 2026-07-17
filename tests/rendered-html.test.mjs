@@ -36,6 +36,11 @@ test("keeps simulation controls and metadata in source", async () => {
   assert.match(page, /least.*round.*weighted.*hash/s);
   assert.match(page, /circuitBreaker/);
   assert.match(page, /adaptiveLimit/);
+  assert.match(page, /traffic-lab-locale/);
+  assert.match(page, /PT-BR/);
+  assert.match(page, /EN-US/);
+  assert.match(page, /Design for the peak/);
+  assert.match(page, /What breaks first/);
   assert.match(layout, /\/og\.png/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
 });
